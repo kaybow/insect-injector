@@ -1,43 +1,43 @@
 var insects = [
   {
-    name: Ant Nest Beetle
+    name: 'Ant Nest Beetle'
     image: "images/ant-nest-beetle.jpg"
-    family: Carabidae
+    family: 'Carabidae'
     min. size: 6
     max. size: 20
-    eats insects: Yes
-    eats dung: No
-    eats plants: No
+    eats insects: true
+    eats dung: false
+    eats plants: true
   },
   {
     name: Dung Beetle
     image: "images/dung-beetle.jpg"
-    family: Scarabidae
+    family: 'Scarabidae'
     min. size: 20
     max. size: 30
-    eats insects: No
-    eats dung: Yes
-    eats plants: No
+    eats insects: true
+    eats dung: true
+    eats plants: false
   },
   {
     name: Stag Beetle
     image: "images/stag-beetle"
-    family: Lucanidae
+    family: 'Lucanidae'
     min. size: 5
     max. size: 120
-    eats insects: No
-    eats dung: No
-    eats plants: Yes
+    eats insects: false
+    eats dung: false
+    eats plants: true
   },
   {
     name: Tortoise Beetle
     image: "images/tortoise-beetle.jpg"
-    family: Cassidinae
+    family: 'Cassidinae'
     min. size: 1
     max. size: 18
-    eats insects: No
-    eats dung: No
-    eats plants: Yes
+    eats insects: false
+    eats dung: false
+    eats plants: true
   }
 ];
 
