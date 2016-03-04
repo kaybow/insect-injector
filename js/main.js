@@ -1,10 +1,45 @@
-var insects
-
-"Name","Image","Family","Min. size","Max. size","Eats insects","Eats dung","Eats plants"
-"Ant Nest Beetle","ant-nest-beetle.jpg","Carabidae","6","20","Yes","No","No"
-"Dung Beetle","dung-beetle.jpg","Scarabidae","20","30","No","Yes","No"
-"Stag Beetle","stag-beetle.jpg","Lucanidae","5","120","No","No","Yes"
-"Tortoise Beetle","tortoise-beetle.jpg","Cassidinae","1","18","No","No","Yes"
+var insects = [
+  {
+    name: Ant Nest Beetle
+    image: "images/ant-nest-beetle.jpg"
+    family: Carabidae
+    min. size: 6
+    max. size: 20
+    eats insects: Yes
+    eats dung: No
+    eats plants: No
+  },
+  {
+    name: Dung Beetle
+    image: "images/dung-beetle.jpg"
+    family: Scarabidae
+    min. size: 20
+    max. size: 30
+    eats insects: No
+    eats dung: Yes
+    eats plants: No
+  },
+  {
+    name: Stag Beetle
+    image: "images/stag-beetle"
+    family: Lucanidae
+    min. size: 5
+    max. size: 120
+    eats insects: No
+    eats dung: No
+    eats plants: Yes
+  },
+  {
+    name: Tortoise Beetle
+    image: "images/tortoise-beetle.jpg"
+    family: Cassidinae
+    min. size: 1
+    max. size: 18
+    eats insects: No
+    eats dung: No
+    eats plants: Yes
+  }
+];
 
 // ##########################################################
 // START DO NOT CHANGE ZONE
